@@ -175,17 +175,26 @@ button {
   }
   #b1,
   #b2 {
-    height: 60svh;
     width: 100vw;
     padding-inline: 5px;
+  }
+  #b1 {
+    height: 60svh;
+  }
+  #b2 {
+    height: 60vh;
   }
   button {
     margin: 1.1px;
     background-color: #111;
     border-radius: 0;
     width: calc(25vw - 5px);
-    /* aspect-ratio: 1/1; */
+  }
+  #b1 button {
     height: calc(60svh / 5 - 2.25px);
+  }
+  #b2 button {
+    height: calc(60vh / 5 - 2.25px);
   }
   button:active {
     background: #222;

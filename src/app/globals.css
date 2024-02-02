@@ -175,7 +175,7 @@ button {
   }
   #b1,
   #b2 {
-    height: 60vh;
+    height: 60svh;
     width: 100vw;
     padding-inline: 5px;
   }
@@ -185,7 +185,7 @@ button {
     border-radius: 0;
     width: calc(25vw - 5px);
     /* aspect-ratio: 1/1; */
-    height: calc(60vh / 5 - 2.25px);
+    height: calc(60svh / 5 - 2.25px);
   }
   button:active {
     background: #222;

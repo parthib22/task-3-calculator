@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth !important;
 }
 body {
-  min-height: 100svh;
+  min-height: 100vh;
   width: 100%;
   box-sizing: border-box;
   margin: 0;
@@ -105,7 +105,7 @@ button {
   main {
     background-color: #000;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     justify-content: center;
   }
   #display {
@@ -175,7 +175,7 @@ button {
   }
   #b1,
   #b2 {
-    height: 60svh;
+    height: 60vh;
     width: 100vw;
     padding-inline: 5px;
   }

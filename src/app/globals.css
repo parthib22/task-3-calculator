@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth !important;
 }
 body {
-  min-height: 100vh;
+  min-height: 100svh;
   width: 100%;
   box-sizing: border-box;
   margin: 0;
